@@ -1,0 +1,26 @@
+QDialog, QPushButton, QDoubleSpinBox, QLabel
+{
+    background-color : rgb(200, 200, 200);
+    color : rgb(0, 0, 0);
+}
+
+QPushButton:disabled, QDoubleSpinBox:disabled, QSlider::handle:horizontal:disabled
+{
+    background-color : rgb(150, 150, 150);
+}
+
+QPushButton:hover, QDoubleSpinBox:hover
+{
+    color : rgb(50, 50, 255);
+}
+
+QSlider::handle:horizontal:enabled
+{
+    border : 1px solid rgb(50, 50, 50);
+    background-color : rgb(170, 170, 170);
+}
+
+QSlider::handle:horizontal:hover
+{
+    background-color : rgb(75, 75, 255);
+}
